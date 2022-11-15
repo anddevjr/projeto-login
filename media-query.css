@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(var(--cor3), var(--cor4));
+    }
+
+    section {
+        width: 80vw;
+    }
+
+    div#img {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+
+    div#form {
+        float: left;
+        width: 30%;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(var(--cor3), var(--cor4));
+    }
+    
+    section {
+        width: 70vw;
+    }
+
+    div#img {
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+
+    div#form {
+        float: left;
+        width: 40%;
+    }
+}
